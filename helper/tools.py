@@ -1,7 +1,7 @@
 from PyPDF2 import PdfReader
 from re import findall
 
-PATTERN = '(GHS\d{2}|[HP]\d{3}(?:\+\d{3})*)'
+PATTERN = r'GHS\d{2}|[HP]\d{3}(?:[+][HP]\d{3})*'
 
 def read_pdf(path):
 
@@ -19,13 +19,13 @@ def read_pdf(path):
                 if text:
                     output += f'{text}\n'
             
-        return output
+        return output.strip()
 
     except Exception as e:
 
         print(f'Fehler: {e}')
         exit(-1)
-        
+
     return None
 
 def find_paterns(text):
