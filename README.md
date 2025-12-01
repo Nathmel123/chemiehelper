@@ -23,3 +23,5 @@ uv sync
 ```
 uv run main.py
 ```
+
+Die Einträge werden sortiert und in die Datei output.txt geschrieben.
