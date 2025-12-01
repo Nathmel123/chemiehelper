@@ -13,7 +13,7 @@ Terminalfenster ausgeführt werden und nacheinander mit enter bestätigt werden.
 Alle pdf Dateien müssen in den pdf ordner gelegt werden.
 
 ```
-git clone http://46.224.43.169/nquadrat/chemiehelper.git
+git clone https://ngitlab.com/nquadrat/chemiehelper.git
 cd chemiehelper/
 mkdir pdf/
 uv sync
