@@ -24,6 +24,8 @@ def main():
                 if not patterns == []:
                     for p in patterns:
                         found_prefixes.add(str(p))
+    
+    found_prefixes = sorted(found_prefixes)
 
     with open('./output.txt', 'w', encoding='utf-8') as writer:
         for p in found_prefixes:
