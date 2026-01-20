@@ -13,7 +13,7 @@ Terminalfenster ausgeführt werden und nacheinander mit enter bestätigt werden.
 Alle pdf Dateien müssen in den pdf ordner gelegt werden.
 
 ```
-git clone hhttps://github.com/Nathme123/chemiehelper.git
+git clone https://github.com/Nathme123/chemiehelper.git
 cd chemiehelper/
 mkdir pdf/
 uv sync
