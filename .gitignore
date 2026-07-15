@@ -10,5 +10,5 @@ wheels/
 .venv
 
 output.txt
-pdf/
+pdf/*.pdf
 .DS_Store

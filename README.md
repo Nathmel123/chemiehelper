@@ -15,7 +15,6 @@ Alle pdf Dateien müssen in den pdf ordner gelegt werden.
 ```
 git clone https://github.com/Nathme123/chemiehelper.git
 cd chemiehelper/
-mkdir pdf/
 uv sync
 ```
 
